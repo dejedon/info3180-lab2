@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel= "stylesheet" type= "text/css" href= "{{url_for('static', filename = 'css/app.css')}}">
+{% endblock%}
+
+
+{% block main %}
+<div id = "top">
+    <header>
+<img id = "image" src = "{{url_for('static', filename = 'me.jpg')}}" ></img><br/>
+<h1>Dejean Whyte</h1>
+<h2>@dejedon</h2>
+<h2>St. Andrew, Jamaica </h2>
+<h2>Date Joined: {{ datejoined }}</h2>
+</header>
+
+</div>
+
+<div id = "bottom">
+<p>I am 21 years old student of the University of the 
+    West Indies and I am currently persuing a major in Computer Science. I am also a
+    part time Carry-In Service Techinician for Dell and Website Inventory Manager.</p>
+<table align ="center">
+    <tr>
+        <th>8</th> <th>790</th> <th>805</th>
+    </tr>
+    <tr>
+        <td>Posts</td> <td>Following</td> <td>Followers</td>
+    </tr>
+</table>
+
+<div id="buttons">
+<button id ="button">Follow</button>
+</div>
+    
+{% endblock %}

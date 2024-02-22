@@ -1,3 +1,38 @@
-body {
-    padding-top: 5rem;
-}
+* {
+    list-style: none;   
+    }
+      body {
+        padding-top: 10rem;
+        font-size: 14px;
+        text-align: center;
+        width: 50em;
+      }
+      
+    header{
+        background-color: rgb(51, 139, 153);
+    }
+      
+      h1{
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+      }
+
+      h2{
+        color: white;
+        font-size: small;
+        font-style: normal;
+      }
+
+      #top{
+        padding-bottom: 15px;
+      }
+
+      #buttons{
+        color: rgb(29, 169, 29);
+      }
+
+      img{
+        height:220px;
+        width:195px;
+      }
